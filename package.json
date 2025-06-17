@@ -1,0 +1,22 @@
+{
+  "name": "hackteen-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "vitest --coverage"
+  },
+  "author": "Alyson Nascimento",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.1",
+    "vitest": "^3.2.4"
+  }
+}
